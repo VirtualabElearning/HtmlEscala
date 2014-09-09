@@ -17,6 +17,12 @@
         <script src="js/jquery.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
        
+        <script>
+            window.addEventListener("load", function(){
+                var load_screen = document.getElementById("load_screen");
+                document.body.removeChild(load_screen);
+            });
+        </script>
         <script type="text/javascript">
   
             $(document).ready(function(){
@@ -100,7 +106,7 @@
             <div class="profile_wrap">
                 <div class="profile_dark" id="cerrar">  
                     <p>Cerrar</p>                  
-                </div>  
+                </div> 
                 <div class="profile_avatar">
                     <div class="profile_avatar_wrap clear">
                         <div class="prof_av_col1">
@@ -183,9 +189,55 @@
                 </div>
             </div>
         </section>
+
+
         <div class="notificaciones_container">
-        hello
+            <section class="notificaciones">
+            <div class="notificaciones_wrap">
+                <h4>Notificaciones</h4>
+                <ul>
+                    <li class="clear">
+                        <div class="not_col1">
+                            
+                        </div>
+                        <div class="not_col2">
+                            <h5>Dolor sit amet, consectetur adipisicing...</h5>
+                            <h6>Agosto 04, 10 am</h6>
+                        </div>
+                    </li>
+                    <li class="clear">
+                        <div class="not_col1">
+                            
+                        </div>
+                        <div class="not_col2">
+                            <h5>Dolor sit amet, consectetur adipisicing...</h5>
+                            <h6>Agosto 04, 10 am</h6>
+                        </div>
+                    </li>
+                    <li class="clear">
+                        <div class="not_col1">
+                            
+                        </div>
+                        <div class="not_col2">
+                            <h5>Dolor sit amet, consectetur adipisicing...</h5>
+                            <h6>Agosto 04, 10 am</h6>
+                        </div>
+                    </li>
+                    <li class="clear">
+                        <div class="not_col1">
+                            
+                        </div>
+                        <div class="not_col2">
+                            <h5>Dolor sit amet, consectetur adipisicing...</h5>
+                            <h6>Agosto 04, 10 am</h6>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
         </div>
+
+
          <section class="encabezado2 clear">
             <div class="encabezado2_wrap">
                 <h6>Liderazgo Integral</h6>

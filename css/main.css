@@ -598,6 +598,7 @@ a.selected {
 .profile_dark {
     background-color: #40403f;
     text-align: center;
+    cursor:pointer;
 }
 .profile_dark p {
     color: #bfbfbf;
