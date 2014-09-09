@@ -9,13 +9,12 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/color.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/jquery.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
         <script>
             window.addEventListener("load", function(){
@@ -26,18 +25,17 @@
         <script type="text/javascript">
   
             $(document).ready(function(){
-                setMenuActive(3);
-            });
+              setMenuActive(3);
+                });
 
         </script>
-        
-    </head>
     <body>
         <div id="load_screen"><div id="loading">Cargando Plataforma</div></div>
         <!--HEADER-->
         <header>
             <div class="header_wrap">
-                <section class="logo">                    
+                <section class="logo"> 
+                    <img src="img/logo.jpg" alt="logo">                   
                 </section>
                 <!--NAVEGACIÓN-->
                 <nav class="mobile-hider desktop_nav">
@@ -72,6 +70,38 @@
             <h3>¡Una experiencia de aprendizaje online que potencializará tus capacidades para el éxito integral!
             </h3>
             <div class="atributos_wrap clear">
+
+                
+                
+                <div id="atr_slider clear mobile-visible">
+                    <div class="atr_slider_wrap">
+
+                        <div class="atr_mobile_blocks clear">
+                            <div class="atr_mobile_block">
+                                <div class="atr_mobile_block_wrap">
+                                    <img src="img/icono_1.png" alt="atributo_1">
+                                    <h2>Contenidos de alta calidad</h2>
+                                </div>
+                            </div>
+                            <div class="atr_mobile_block">
+                                <div class="atr_mobile_block_wrap">
+                                    <img src="img/icono_2.png" alt="atributo_1">
+                                    <h2>Aprende a tu ritmo</h2>
+                                </div>
+                            </div>
+                            <div class="atr_mobile_block">
+                                <div class="atr_mobile_block_wrap">
+                                    <img src="img/icono_3.png" alt="atributo_1">
+                                    <h2>Certificamos tus habilidades</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
                 <div class="atributo mobile-hider">
                     <div class="atributo_wrap">
                         <img src="img/icono_1.png" alt="contenidos de calidad">
@@ -86,7 +116,7 @@
                         <p class="mobile-hider">Accede a tus cursos en cualquier momento del día, desde tu computador, tableta, Smartphone o cualquier otro dispositivo que tengas con acceso a internet.</p>
                     </div>
                 </div>
-                <div class="atributo atributo_third">
+                <div class="atributo atributo_third mobile-hider">
                     <div class="atributo_wrap">
                         <img src="img/icono_3.png" alt="contenidos de calidad">
                         <h2>Certificamos tus habilidades</h2>
@@ -335,7 +365,7 @@
             </div>
 
         </section>
-        <footer>
+        <footer class="special_footer">
             <div class="footer_wrap">
                 <div class="social">  
                 <img src="img/face_icon.png" alt="facebook">
