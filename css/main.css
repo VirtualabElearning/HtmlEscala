@@ -242,7 +242,7 @@ header {
 
 .logo {
     float: left;
-    width: 110px;
+    width: auto;
     height: 110px;
     margin: 0 0 0 0;
     position: relative;
