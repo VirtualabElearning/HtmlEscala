@@ -14,7 +14,7 @@
 /* ==========================================================================
     Color # 1 TEXTO
    ======================== ================================================== */
-.curso_des h2, .encabezado_wrap h6,.encabezado2_wrap h6,.col2_wrap h4,.pensum_block h2,.teacher_col2 h3,.perfil_col2 h3,.disc_block_A_col2 span,.nosotros_col1 h2,.landing_col1 h3{
+.curso_des h2, .encabezado_wrap h6,.encabezado2_wrap h6,.col2_wrap h4,.pensum_block h2,.teacher_col2 h3,.perfil_col2 h3,.disc_block_A_col2 span,.nosotros_col1 h2,.landing_col1 h3,.inbox_curso, .inbox_actividad,.box h3{
   color:#0f8dcd;
 }
 /* ==========================================================================
@@ -42,7 +42,7 @@
     Color # 3 TEXTO
    ======================== ================================================== */
 .desktop_nav a:link,.desktop_nav a:visited,.desktop_nav a:active,.atributo_wrap p, h5,.curso_des p,.testimonial_wrap p,.pepName h5,.pepName p,.col2_wrap p,.sus_col1 h3,.sus_col1 h4,.fecha,.sus_col2 h3,
-.col2_wrap ul,.pensum_block p,.teacher_col2 h2,.teacher_col2 p,.login_wrap p,.perfil_col2 h6,.question_btn h6,.edit_block p, .editar_wrap a,.paginador_col2 ul li,.paginador_btn,.change_pic_col2 p,.forgot_pass,.disc_block_A_col1 h4,.disc_block_A_col1 h5,.disc_block_A_col2 p,.evaluacion_preg,.evaluacion_preg form span,.tutorial_inter_wrap h2,.landing_col1 p{
+.col2_wrap ul,.pensum_block p,.teacher_col2 h2,.teacher_col2 p,.login_wrap p,.perfil_col2 h6,.question_btn h6,.edit_block p, .editar_wrap a,.paginador_col2 ul li,.paginador_btn,.change_pic_col2 p,.forgot_pass,.disc_block_A_col1 h4,.disc_block_A_col1 h5,.disc_block_A_col2 p,.evaluacion_preg,.evaluacion_preg form span,.tutorial_inter_wrap h2,.landing_col1 p,.not_block_col3 p{
   color:#575756;
 }
 /* ==========================================================================

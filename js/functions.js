@@ -59,6 +59,7 @@ $(document).ready(function() {
 			block_in = false;
 			}
 		);	
+        
 		
 });
 
@@ -126,8 +127,8 @@ $(document).ready(function(){
                 $(".three").css("background-color","#575756");
                 $(".four").css("background-color","#575756");
                 $("#slide2").animate({right:'0px'});
-                $("#slide_title").html("Modulos de curso");
-                $("#slide_txt").html("Visualiza e interactua con los modulo del curso que seleccionaste");
+                $("#slide_title").html("Navegación entre módulos");
+                $("#slide_txt").html("Accede rápidamente al módulo que quieras ir.");
                 $("#uno").hide();
                 $("#dos").show();
                 });
@@ -136,7 +137,7 @@ $(document).ready(function(){
                 $("#slide2").css("display","none");
                 $(".three").css("background-color","#5fcf80");
                 $("#slide3").animate({right:'0px'});
-                $("#slide_title").html("Actividades de Modulo");
+                $("#slide_title").html("Actividades del módulo");
                 $("#slide_txt").html("Accede a las actividades y controla tu progreso del módulo.");
                 $("#dos").hide();
                 $("#tres").show();
@@ -146,10 +147,20 @@ $(document).ready(function(){
                 $("#slide3").css("display","none");
                 $(".four").css("background-color","#5fcf80");
                 $("#slide4").animate({right:'0px'});
-                $("#slide_title").html("Listo para empezar a aprender");
-                $("#slide_txt").html("Puedes preguntar al facilitador levantando la mano");
+                $("#slide_title").html("Tu perfil");
+                $("#slide_txt").html("Edita tu información personal, administra tu plan, controla tu puntaje y logros.");
                 $("#tres").hide();
                 $("#cuatro").show();
+                });
+
+                 $("#cuatro").click(function(){
+                $("#slide4").css("display","none");
+                $(".five").css("background-color","#5fcf80");
+                $("#slide5").animate({right:'0px'});
+                $("#slide_title").html("Pregunta al facilitador");
+                $("#slide_txt").html("Recibe respuesta a todas tus preguntas.");
+                $("#cuatro").hide();
+                $("#cinco").show();
                 });
 
          });
@@ -178,5 +189,8 @@ $(document).ready(function(){
 
     });
 
+
+    
+    
 
 
