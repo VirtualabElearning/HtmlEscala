@@ -651,6 +651,46 @@ a.selected {
     font-size: 12px;
     color: #bfbfbf;
 }
+.status_bar{
+    margin:0 0 5px 35px;
+}
+.status_bar ul{
+    width:100%;
+    margin:10px 10px0 0;
+}
+.status_bar ul li{
+    width:15px;
+    height:15px;
+    border-radius:15px;
+    float:left;    
+    margin:10px 7px 0 0;
+}
+.status_bar ul li.s_on{
+    background-color:#5fcf80;
+}
+.status_bar ul li.s_off{
+    background-color:#eeeeee;
+}
+.status_bar img{
+    width:35px;
+    float:left;
+    margin:0 7px 0 0;
+}
+.status_txt{
+    width:240px;
+    margin:0 0 20px 40px;
+}
+.status_txt p{
+    float:left
+}
+.status_txt span{
+    float:right;
+}
+.status_txt p,.status_txt span{
+    font-family:century_b;
+    font-size:14px;
+    text-align:center;
+}
 .avatar_infoblock {
     width: 75%;
     margin: 0 auto;
@@ -1575,6 +1615,9 @@ h5 {
 #discusion{
     display:none;
 }
+#generar_discusion{
+    display:none;
+}
 #respuesta {
     display: none;    
     left: -600px;
@@ -1755,7 +1798,7 @@ h5 {
     margin: 0 0 0 4px;
     padding: 0 0 0 0;
 }
-.evaluacion_btn {
+.evaluacion_btn,.volver {
     width: 75%;
     margin: 20px auto 5px auto;
     padding: 10px 0 10px 0;
@@ -1773,6 +1816,7 @@ h5 {
     font-family:century;
     font-size:14px;
     margin:0 auto 15px auto;
+    width:100%;
 }
 .evaluacion_wrap p.bien{
     color:#5fcf80;
@@ -1792,7 +1836,7 @@ h5 {
     text-align:center;    
     margin:100px auto 40px auto;
     width:100%;
-    height:50px;
+    height:60px;
     
 }
 .evaluacion_wrap ul li{
@@ -1842,6 +1886,13 @@ h5 {
    Discusiones
    ========================================================================== */
 .discusion {
+    position:relative;
+    width: 97%;
+    left:-600px;
+    top:0px;
+    margin:0px 0 3px 3px;    
+}
+.generar_discusion {
     position:relative;
     width: 97%;
     left:-600px;
@@ -2910,6 +2961,13 @@ h5 {
 }
 .expl_txt{
     margin:5px 0 10px 0;
+    position:relative;
+}
+.expl_txt img{
+    position:absolute;
+    width:35px;
+    left:80px;
+    top:-5px;
 }
 .expl_txt h3{
     font-family:century_b;
@@ -5021,7 +5079,7 @@ This area adds love and makes the site reponsive
     text-align:center;    
     margin:100px auto 20px auto;
     width:90%;
-    height:100px;    
+    height:80px;    
 }
     #evaluacion {
     display: none;

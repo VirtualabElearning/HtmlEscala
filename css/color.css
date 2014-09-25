@@ -2,12 +2,12 @@
     Color # 1 
    ======================== ================================================== */
 
-.atributos,.light_blue,.curso_btn,.circle,.brand_line,.download_btn,.send_question,.current,.discusion_btn,.module_actual,.modulo_actual{
+.atributos,.light_blue,.curso_btn,.circle,.brand_line,.download_btn,.send_question,.current,.discusion_btn,.module_actual,.modulo_actual,.volver{
   background-color:#0f8dcd;
   color: #fff;
 }
 
-.light_blue:hover,.curso_btn:hover,.download_btn:hover,.send_question:hover,.discusion_btn:hover,.module_actual:hover{
+.light_blue:hover,.curso_btn:hover,.download_btn:hover,.send_question:hover,.discusion_btn:hover,.module_actual:hover,.volver:hover{
   background-color:#33adeb;
   color: #fff;
 }

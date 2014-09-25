@@ -89,9 +89,11 @@ $(document).ready(function(){
         var btn2 = $("#act_btn_2");
         var btn3 = $("#act_btn_3");
         var btn6 = $("#act_btn_6");
+        var btn7 = $("#act_btn_7");
         var video = $("#video");
         var eval = $("#evaluacion");
         var disc = $("#discusion");
+        var g_disc = $("#generar_discusion");
         var answ = $("#respuesta");
         var see = "block";
         var hide = "none";
@@ -104,6 +106,8 @@ $(document).ready(function(){
         answ.animate(getout);
         disc.css({display:hide});
         disc.animate(getout);
+        g_disc.css({display:hide});
+        g_disc.animate(getout);
         video.css({display:see});
         video.animate(getin);       
         });
@@ -114,6 +118,8 @@ $(document).ready(function(){
         answ.animate(getout);
         disc.css({display:hide});
         disc.animate(getout);
+        g_disc.css({display:hide});
+        g_disc.animate(getout);
         video.css({display:hide});
         video.animate(getout);       
         });
@@ -124,6 +130,8 @@ $(document).ready(function(){
         answ.animate(getout);
         disc.css({display:see});
         disc.animate(getin);
+        g_disc.css({display:hide});
+        g_disc.animate(getout);
         video.css({display:hide});
         video.animate(getout);       
         }); 
@@ -134,9 +142,23 @@ $(document).ready(function(){
         answ.animate(getin);
         disc.css({display:hide});
         disc.animate(getout);
+        g_disc.css({display:hide});
+        g_disc.animate(getout);
         video.css({display:hide});
         video.animate(getout);       
         }); 
+        btn7.click(function(){
+        eval.css({display:hide});
+        eval.animate(getout);
+        answ.css({display:hide});
+        answ.animate(getout);
+        disc.css({display:hide});
+        disc.animate(getout);
+        g_disc.css({display:see});
+        g_disc.animate(getin);
+        video.css({display:hide});
+        video.animate(getout);       
+        });
  
 
 });
