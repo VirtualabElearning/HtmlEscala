@@ -2390,7 +2390,6 @@ h5 {
     font-size: 15px;
     padding: 7px;
     width: 95%;
-    ;
     height: 100px;
     margin: 20px 0 20px 9px;
 }
@@ -2399,10 +2398,12 @@ h5 {
    ========================================================================== */
 .nosotros {
     width: 100%;
+    min-height:400px;
 }
 .nosotros_wrap {
     width: 960px;
-    margin: 0 auto;
+    margin: 50px auto;
+    
 }
 .nosotros_col1 {
     border-radius: 10px;
@@ -2442,6 +2443,7 @@ h5 {
 }
 .landing_wrap{
     width:960px;
+    min-height:400px;
     margin:0 auto;
 }
 .landing_col1{
@@ -2892,7 +2894,7 @@ h5 {
        top:62px;
        left:41%;
        font-size:50px;
-       color:#e89b22;
+       color:#fff;
        font-family:century_b;
    }
 /* ==========================================================================
@@ -5528,7 +5530,7 @@ ul.expl_tab li{
      border-bottom:none;
      float:left; 
      text-align:center;     
-     font-size:11px;
+     font-size:10px;
      padding:0 0 10pxpx 0;
 }
 ul.expl_tab li.expl_col1{
