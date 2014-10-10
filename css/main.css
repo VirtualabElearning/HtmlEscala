@@ -1667,6 +1667,11 @@ h5 {
     background-repeat: no-repeat; 
     color: #bfc9ca;
 }
+.modulo_premium{
+    background: url(../img/star_icon.png);
+    background-repeat: no-repeat; 
+    color: #bfc9ca;
+}
 
 .aula_btns {
     width: 100%;
@@ -2654,6 +2659,54 @@ h5 {
 
 }
 /* ==========================================================================
+   Cetificados Pagina
+   ========================================================================== */
+.cert_page{
+    width:100%;
+}
+.cert_page_wrap{
+    width:720px;
+    margin:0 auto;
+    padding:50px 0 0 0;
+}
+.cert_block{
+    width:100px;
+    float:left;
+    margin:40px 20px 0 0;
+}
+.cert_block_wrap{
+    text-align:center;
+}
+.cert_block_wrap img{
+    width:90px;
+    height:90px;
+    border-radius:90px;
+}
+.cert_block_wrap h3{
+    font-family:century_b;
+    font-size:15px;
+    line-height:16px;
+}
+.cert_block_wrap p{
+    font-family:century;
+    font-size:12px;
+    line-height:14px;
+    margin:10px 0 10px 0;
+}
+.cert_btn{    
+    border-radius:5px;
+    color:#ffffff;
+    font-family:century_b;
+    font-size:12px;
+    padding:5px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+    -o-transition: 0.4s;
+    -khtml-transition: 0.4s;
+}
+
+/* ==========================================================================
    Notificaciones Pagina
    ========================================================================== */
 .not_page{
@@ -2670,6 +2723,13 @@ h5 {
     border-top: 1px solid #e5e5e5;
     padding:20px;
     margin:30px auto;
+}
+.not_block_wrap{
+    position:relative;
+}
+.not_block_wrap span.closex{
+    position:absolute;
+   right:0px
 }
 .not_block_col1{
     width:15%;
@@ -3469,8 +3529,16 @@ This area adds love and makes the site reponsive
     width:100%;
 }
 .not_page_wrap{
-    width:720px;
+    width:700px;
     margin:0 auto;
+}
+.not_block{
+    width:75%;
+       
+}
+.not_block_col2{
+ 
+    margin:3px 10px 0 20px;    
 }
 /* ==========================================================================
    Inbox
@@ -3574,6 +3642,17 @@ This area adds love and makes the site reponsive
     border-radius: 10px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     overflow:hidden;
+}
+/* ==========================================================================
+   Cetificados Pagina
+   ========================================================================== */
+.cert_page{
+    width:100%;
+}
+.cert_page_wrap{
+    width:600px;
+    margin:0 auto;
+    padding:50px 0 0 0;
 }
  /* ==========================================================================
        Footer
@@ -4312,7 +4391,7 @@ This area adds love and makes the site reponsive
         {
             position:fixed;
             top:-100%;
-            left:9%;
+            left:11%;
             width:400px;
             height:420px;
             background:#f5f5f5;
@@ -4385,6 +4464,14 @@ This area adds love and makes the site reponsive
     background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+/* ==========================================================================
+   Cetificados Pagina
+   ========================================================================== */
+.cert_page_wrap{
+    width:360px;
+    margin:0 auto;
+    padding:0px 0 0 0;
 }
 
     /* ==========================================================================
@@ -5343,7 +5430,7 @@ This area adds love and makes the site reponsive
     margin:0 auto;
 }
 .not_block{
-    width:100%;
+    width:95%;
     background-color:#f8f8f8;
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
@@ -5541,6 +5628,17 @@ ul.expl_tab li.expl_col2{
 }
 ul.expl_tab li.expl_col3{
     width:50%;
+}
+/* ==========================================================================
+   Cetificados Pagina
+   ========================================================================== */
+.cert_page{
+    width:100%;
+}
+.cert_page_wrap{
+    width:240px;
+    margin:0 auto;
+    padding:0px 0 0 30px;
 }
     /* ==========================================================================
        Footer
