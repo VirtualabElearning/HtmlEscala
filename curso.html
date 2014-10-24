@@ -620,9 +620,8 @@ Your browser isn't invited for super fun audio time.
                     $j('#sound-1a').get(0).play();
                     setTimeout(function(){
                          $j('#surprise_box').hide();
-                         $j('#surprise_result').css("display","block");
+                         $j('#surprise_result').css("display","block");points();
                      }, 2700);
-
                 }); 
                 $j('.close').click(function(){
                     close_box();
@@ -641,10 +640,8 @@ Your browser isn't invited for super fun audio time.
                 }); 
                 $j('.actividad_aprobada').click(function(){
                     close_box2();
+
                 });
-
-
-
             }); 
             function close_box()
             {   $j('.box').animate({'top':'-100%'}, 200, 'linear');
@@ -654,6 +651,7 @@ Your browser isn't invited for super fun audio time.
                     $j('.backdrop, .box').css('display', 'none');
                     $j('#surprise_box').show();
                     $j('#surprise_result').css("display","none");
+
             });  
             }
             function close_box2()
@@ -665,7 +663,14 @@ Your browser isn't invited for super fun audio time.
                     
             });  
             }
-            
+            function points(){
+            $j('.puntos').countTo({
+                    from: 175,to:275,speed: 1500,refreshInterval: 50,
+                    onComplete: function(value) {
+                        console.debug(this);
+                    }
+            });
+}
 
         </script>
       
