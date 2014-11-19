@@ -1925,6 +1925,9 @@ h5 {
     width: 100%;
     padding:0 0 0 12px;
 }
+.aula_btns a{
+    color:#575756;
+}
 .aula_btns ul li{
     width: 80px;
     height: 59px;
